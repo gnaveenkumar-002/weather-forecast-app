@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Weather Forecast Dashboard</title>
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="light-mode">
+
+<!-- Theme Toggle -->
+<div class="theme-toggle">
+    <button id="themeBtn" onclick="toggleTheme()">
+        🌙 Dark Mode
+    </button>
+</div>
+
+<div class="container">
+
+    <!-- Search Section -->
+    <div class="search-section">
+
+        <input
+            type="text"
+            id="cityInput"
+            placeholder="Enter city name..."
+        >
+
+        <button id="searchBtn" onclick="searchCity()">
+            <img src="assets/icons/search.jpg" alt="search">
+        </button>
+
+        <button class="location-btn"
+                onclick="useMyLocation()">
+            📍 My Location
+        </button>
+
+    </div>
+
+    <!-- Error Message -->
+    <div class="error" id="errorMsg">
+        City not found.
+    </div>
+
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="spinner"></div>
+        <p>Loading...</p>
+    </div>
+
+    <!-- Main Dashboard -->
+    <div class="dashboard" id="weatherSection">
+
+        <!-- Left Panel -->
+        <div class="current-weather">
+
+            <img
+                id="weatherIcon"
+                src="assets/icons/cloudy.png"
+                alt="weather icon"
+            >
+
+            <h1 id="temp">29°C</h1>
+
+            <h2 id="cityName">
+                Bengaluru
+            </h2>
+
+            <p id="condition">
+                Cloudy
+            </p>
+
+        </div>
+
+        <!-- Right Panel -->
+        <div class="weather-details">
+
+            <div class="detail-box">
+                <span>Humidity</span>
+                <h3 id="humidity">59%</h3>
+            </div>
+
+            <div class="detail-box">
+                <span>Wind Speed</span>
+                <h3 id="wind">17 km/hr</h3>
+            </div>
+
+            <div class="detail-box">
+                <span>Sunrise</span>
+                <h3 id="sunrise">5:52 AM</h3>
+            </div>
+
+            <div class="detail-box">
+                <span>Sunset</span>
+                <h3 id="sunset">6:44 PM</h3>
+            </div>
+
+            <div class="detail-box">
+                <span>Feels Like</span>
+                <h3 id="feelsLike">30°C</h3>
+            </div>
+
+            <div class="detail-box">
+                <span>Pressure</span>
+                <h3 id="pressure">1012 hPa</h3>
+            </div>
+
+            <div class="detail-box">
+                <span>Visibility</span>
+                <h3 id="visibility">10 km</h3>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Forecast Section -->
+    <div class="forecast-section"
+         id="forecastSection">
+
+        <h2>
+            5-Day Forecast
+        </h2>
+
+        <div class="forecast-cards"
+             id="forecastCards">
+
+        </div>
+
+    </div>
+
+    <!-- Search History -->
+    <div class="history-section"
+         id="historySection">
+
+        <h2>
+            Recent Searches
+        </h2>
+
+        <ul class="history-list"
+            id="historyList">
+
+        </ul>
+
+    </div>
+
+</div>
+
+</div>
+
+<script src="js/Script.js"></script>
+
+</body>
+</html>
