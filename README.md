@@ -203,7 +203,7 @@ Software Engineer | Java Full Stack Developer
 
 📧 Email: [gnaveenkumargnk8@gmail.com](mailto:gnaveenkumargnk8@gmail.com)
 
-🔗 LinkedIn: https://linkedin.com/in/g-naveen-kumar
+🔗 LinkedIn: https://www.linkedin.com/in/g-naveen-kumar-84a558280/
 
 🔗 GitHub: https://github.com/gnaveenkumar-002
 
