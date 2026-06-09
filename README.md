@@ -131,34 +131,6 @@ weather-forecast-app/
 
 ---
 
-## 🖥️ Screenshots
-
-### Dashboard
-
-Add screenshot:
-
-```text
-assets/screenshots/home.png
-```
-
-### 5-Day Forecast
-
-Add screenshot:
-
-```text
-assets/screenshots/forecast.png
-```
-
-### Dark Mode
-
-Add screenshot:
-
-```text
-assets/screenshots/darkmode.png
-```
-
----
-
 ## ⚙️ Installation & Setup
 
 ### Clone Repository
