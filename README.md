@@ -8,7 +8,7 @@ Designed and developed using modern frontend technologies with integration of th
 
 ## 🚀 Live Demo
 
-🔗 Live Application: 
+🔗 Live Application: https://weather-forecast-app-8gth.vercel.app/
 
 🔗 GitHub Repository: https://github.com/gnaveenkumar-002/weather-forecast-app
 
